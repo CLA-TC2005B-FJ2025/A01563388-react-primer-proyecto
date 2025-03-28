@@ -4,10 +4,10 @@ import { Tarjeta } from './Tarjeta'
 export function App() {
   return (
     <div>
-        <div>Personajes de Mario Bros</div>
-        <Tarjeta/>
-        <Tarjeta/>
-        <Tarjeta/>
+        <div><h1>Personajes de Mario Bros</h1></div>
+        <Tarjeta nombre = "Mario" colorFav="Rojo"/>
+        <Tarjeta nombre = "Luigi" colorFavor="Verde"/>
+        <Tarjeta nombre = "Yoshi" colorFav="Verde"/>
     </div>
   )
 }
